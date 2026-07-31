@@ -1,1 +1,33 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-bg-primary: #ffffff;
+  --color-bg-header: #59a305;
+  --color-bg-footer: #59a305;
+  --color-text-primary: #1f2937;
+}
+
+html {
+  font-size: clamp(0.875rem, 0.75rem + 0.5vw, 1.125rem);
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.header-bg {
+  background-color: var(--color-bg-header);
+}
+
+.footer-bg {
+  background-color: var(--color-bg-footer);
+}
+
+a {
+  color: inherit;
+  transition: color 0.2s ease-in-out;
+}
