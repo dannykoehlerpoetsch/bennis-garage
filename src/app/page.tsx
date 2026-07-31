@@ -1,7 +1,8 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
-      <h1 className="text-4xl font-bold">Bennis Garage</h1>
-    </main>
+    <div className="p-8">
+      <h1 className="text-4xl font-bold mb-4">Willkommen bei Bennis Garage</h1>
+      <p className="text-gray-300">Der Footer ist jetzt immer am unteren Rand der Seite.</p>
+    </div>
   );
 }
