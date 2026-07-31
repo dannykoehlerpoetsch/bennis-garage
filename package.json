@@ -1,0 +1,51 @@
+{
+  "name": "bennis-garage",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "fmt": "prettier --write src",
+    "fmt:check": "prettier --check src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannykoehlerpoetsch/bennis-garage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannykoehlerpoetsch/bennis-garage/issues"
+  },
+  "homepage": "https://github.com/dannykoehlerpoetsch/bennis-garage#readme",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.6",
+    "@eslint/js": "^10.0.1",
+    "@next/eslint-plugin-next": "^16.2.12",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.1.2",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@typescript-eslint/eslint-plugin": "^8.65.0",
+    "@typescript-eslint/parser": "^8.65.0",
+    "autoprefixer": "^10.5.4",
+    "eslint": "9",
+    "eslint-config-next": "^16.2.12",
+    "eslint-plugin-n": "^18.2.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.8.0",
+    "postcss": "^8.5.25",
+    "prettier": "^3.9.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "next": "^16.2.12",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
