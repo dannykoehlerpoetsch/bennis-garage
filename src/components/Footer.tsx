@@ -5,7 +5,7 @@ export default function Footer() {
       <p>
         &copy; {new Date().getFullYear()} Bennis Garage. All rights reserved.
         <br />
-        <Link href="/impressum" className="hover:underline">
+        <Link href="/impressum" scroll={true} className="hover:underline">
           Impressum
         </Link>
       </p>
